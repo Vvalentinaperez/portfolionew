@@ -1,8 +1,26 @@
 .container {
   background-color: #121212;
-  padding: 15px;
+  display: flex;
+  justify-content: right;
+  width: 100vw;
+  position: absolute;
 }
 
 .navInt {
   color: white;
+  border: 1px solid yellow;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.link {
+  position: relative;
+  padding: 15px;
+  border: 1px solid red;
+  text-decoration: none;
+  color: white;
+}
+
+.link:active {
+  color: red;
 }
