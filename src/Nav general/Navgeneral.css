@@ -1,5 +1,4 @@
 .container {
-  background-color: #121212;
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -8,7 +7,6 @@
 
 .navInt {
   color: white;
-  border: 1px solid yellow;
   padding: 15px;
   cursor: pointer;
 }
@@ -16,11 +14,6 @@
 .link {
   position: relative;
   padding: 20px;
-  border: 1px solid red;
   text-decoration: none;
   color: white;
-}
-
-.link:active {
-  color: red;
 }

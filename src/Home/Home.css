@@ -1,0 +1,27 @@
+.containerHome {
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #010f8d;
+}
+
+.textprincipal {
+  display: flex;
+  justify-content: left;
+  padding-top: 10%;
+  padding-left: 3%;
+  font-size: 80px;
+  font-weight: 700;
+  color: white;
+  border: 1px solid red;
+}
+
+.textsecundario {
+  padding-left: 3%;
+  font-size: 20px;
+  color: white;
+  border: 1px solid yellow;
+}
+
+.waves {
+  margin-top: 120px;
+}
