@@ -8,7 +8,7 @@ import Contacto from "./Contacto/Contacto";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navgeneral />
       <Routes>
         <Route path="/" element={<Home />} />

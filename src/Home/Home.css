@@ -1,6 +1,7 @@
 .containerHome {
   height: 100vh;
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  width: 100%;
   background-color: #010f8d;
 }
 
@@ -12,16 +13,10 @@
   font-size: 80px;
   font-weight: 700;
   color: white;
-  border: 1px solid red;
 }
 
 .textsecundario {
   padding-left: 3%;
   font-size: 20px;
   color: white;
-  border: 1px solid yellow;
-}
-
-.waves {
-  margin-top: 120px;
 }
