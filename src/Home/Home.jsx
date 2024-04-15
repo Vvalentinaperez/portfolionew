@@ -1,8 +1,8 @@
 import React from "react";
 import Waves from "./Waves";
 import "./Home.css";
-import WaveSec from "./WaveSec";
 import About from "./About";
+import WaveSec from "./WaveSec";
 
 const Home = () => {
   return (

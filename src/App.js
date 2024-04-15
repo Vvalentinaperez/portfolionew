@@ -5,6 +5,7 @@ import Home from "./Home/Home";
 import Diseño from "./Diseño/Diseño";
 import Programacion from "./Programacion/Programacion";
 import Contacto from "./Contacto/Contacto";
+import DiseñoGrafico from "./DiseñoGrafico/DiseñoGrafico";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/diseño" element={<Diseño />} />
         <Route path="/programacion" element={<Programacion />} />
         <Route path="/contacto" element={<Contacto />} />
+        <Route path="/diseñografico" element={<DiseñoGrafico />} />
       </Routes>
     </div>
   );

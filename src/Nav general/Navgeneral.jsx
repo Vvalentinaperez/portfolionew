@@ -19,6 +19,9 @@ const Navgeneral = () => {
         <Link className="link" activeClassName="active" to="/contacto">
           Contacto
         </Link>
+        <Link className="link" activeClassName="active" to="/diseñografico">
+          Diseño Grafico
+        </Link>
       </div>
     </div>
   );
