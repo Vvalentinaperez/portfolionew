@@ -1,7 +1,6 @@
 .container {
   display: flex;
-  justify-content: center;
-  left: 350px;
+  justify-content: flex-start;
   width: 50%;
   position: absolute;
 }

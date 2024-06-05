@@ -13,14 +13,14 @@ const Navgeneral = () => {
         <Link className="link" activeClassName="active" to="/diseño">
           Diseño Ux/Ui
         </Link>{" "}
+        <Link className="link" activeClassName="active" to="/diseñografico">
+          Diseño Grafico
+        </Link>
         <Link className="link" activeClassName="active" to="/programacion">
           Programacion
         </Link>{" "}
         <Link className="link" activeClassName="active" to="/contacto">
           Contacto
-        </Link>
-        <Link className="link" activeClassName="active" to="/diseñografico">
-          Diseño Grafico
         </Link>
       </div>
     </div>

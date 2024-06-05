@@ -2,21 +2,38 @@
   height: 100vh;
   /* margin: 0 auto; */
   width: 100%;
-  background-color: #010f8d;
+  background-color: #000000;
 }
 
-.textprincipal {
-  display: flex;
-  justify-content: left;
-  padding-top: 10%;
-  padding-left: 3%;
-  font-size: 80px;
-  font-weight: 700;
+.ladoIzquierdo {
+  width: 60%;
+}
+.imagenPrincipal {
+  width: 350px;
+  margin-top: 100px;
+  margin-left: 40px;
+  opacity: 0.5;
+}
+
+.imagenSecundaria {
+  width: 350px;
+  margin-left: 20px;
+}
+.ladoDerecho h1 {
   color: white;
+  width: 50%;
+  position: relative;
+  top: -20px;
 }
 
-.textsecundario {
-  padding-left: 3%;
+.ladoDerecho p {
+  color: white;
   font-size: 20px;
-  color: white;
+}
+
+.ladoDerecho {
+  width: 35%;
+  margin-left: 60%;
+  position: absolute;
+  top: 100px;
 }
